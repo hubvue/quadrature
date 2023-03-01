@@ -1,0 +1,25 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@cckim/types': ^1.2.11
+  typescript: ^4.9.5
+
+devDependencies:
+  '@cckim/types': 1.2.11_typescript@4.9.5
+  typescript: 4.9.5
+
+packages:
+
+  /@cckim/types/1.2.11_typescript@4.9.5:
+    resolution: {integrity: sha512-STkR4qxRN0mFuz1Q7l5mpf+M4DSDS/WH+2PWDEeTFaDFy3T+BbYa0Fk5/R+Miud6oiF5fGPB6LHQEsmVKNGD2A==}
+    peerDependencies:
+      typescript: '>=4.7.0'
+    dependencies:
+      typescript: 4.9.5
+    dev: true
+
+  /typescript/4.9.5:
+    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
