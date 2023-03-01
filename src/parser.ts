@@ -75,4 +75,4 @@ type ParsePrimaryExpression<
   FirstToken['type'] extends TokenType.CloseParen ? ParseExpression<TArray.Tail<Tokens>>
   : never
 
-export type Parser<SourceCode extends string, Tokens extends Token<TokenType, string>[] = Tokenize<SourceCode>> = Program<[ParseExpression<Tokens>]>
+export type Parser<Tokens extends Token<TokenType, string>[]> = Program<[ParseExpression<Tokens>]>
