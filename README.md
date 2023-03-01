@@ -73,7 +73,7 @@ type Result = Compiler<Parser<Tokenize<'1 + 2'>>> // 3
 ```
 
 ## Run
-将四则运算字符串计算出结果。
+Compute the result from a string of four operations.
 
 ```ts
 type Result = Run<'1 + 2'> // 3
